@@ -1,0 +1,38 @@
+body {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    background-image: url(/css/pexels-pixabay-326311.jpg);
+    background-size: 110%;
+    width: 100vw;
+    height: 100vh;
+}
+.calculator {
+    width:300px;
+    background-color: rgb(109, 92, 81, .75);
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.display {
+    width:100%;
+    background-color: cornsilk;
+    border-radius: 20px;
+}
+.keypad {
+    width:100%;
+    padding: 20px;
+
+}
+
+.row{
+    justify-content: center;
+    display: flex;
+}
+
+button {
+    width:50px;
+    background-color: rgb(26, 10, 1);
+    color:ghostwhite;
+
+}
